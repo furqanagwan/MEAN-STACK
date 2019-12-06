@@ -1,10 +1,10 @@
 {
-  "name": "MERN-STACK",
+  "name": "server_app",
   "version": "1.0.0",
   "description": "MERN STACK TEMPLATE, USE THIS FOR PRODUCTION PURPOSES",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently \"node server.js\" \"cd ../client && npm start\""
+    "start": "concurrently \"node server.js\" \"cd ../client && ng serve\""
   },
   "author": "Furqan Agwan",
   "license": "ISC",
@@ -15,5 +15,6 @@
     "express": "^4.17.1",
     "mongoose": "^5.7.13",
     "nodemon": "^2.0.1"
-  }
+  },
+  "devDependencies": {}
 }
